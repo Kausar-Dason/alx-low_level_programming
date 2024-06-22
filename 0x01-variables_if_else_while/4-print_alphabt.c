@@ -3,7 +3,7 @@
 /**
  * main - Entry
  *
- * Description: Printing the alphabet in lowercase excluding q & e, followed by a new line.
+ * Description: Printing the alphabet in lowercase excluding q & e.
  *
  * Return: Always 0 (Success)
  */
