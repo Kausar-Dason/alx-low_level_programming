@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: printing FIZZ BUZZ for multiples of 3 and 5.
+ * Description: printing Fizz Buzz for multiples of 3 and 5.
  *
  * Return: Always 0 (Success)
  */
@@ -30,6 +30,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+	printf("Buzz");
 	printf("\n");
 
 	return (0);
