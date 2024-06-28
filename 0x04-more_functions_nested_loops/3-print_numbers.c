@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * void print_numbers(void): a function that prints the numbers, from 0 to 9
+ * print_numbers - a function that prints the numbers, from 0 to 9
  *
- * return: void
+ * Return: void
  */
 void print_numbers(void)
 {
@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	for (c = '0'; c <= '9'; c++)
 		_putchar(c);
-	
+
 	_putchar('\n');
 
 }
