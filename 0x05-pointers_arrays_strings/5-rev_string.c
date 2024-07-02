@@ -22,7 +22,7 @@ void rev_string(char *s)
 
 	while (start < end)
 	{
-		temp = s[end];
+		temp = s[start];
 		s[start] = s[end];
 		s[end] = temp;
 
@@ -30,4 +30,3 @@ void rev_string(char *s)
 		end--;
 	}
 }
-			
