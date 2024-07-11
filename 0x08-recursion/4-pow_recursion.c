@@ -2,14 +2,14 @@
 
 /**
  * _pow_recursion -  a function that returns the value of powers
- * @x: the base variable 
+ * @x: the base variable
  * @y: the exponent variable
  *
- * Return: value of x raised to the power of y,or -1 if y is less than 0
+ * Return: value of x raised to the power y, or -1 if y is less than 0
  */
 int _pow_recursion(int x, int y)
 {
-	if (y < 0)
+	if ( y < 0)
 	{
 		return (-1);
 	}
