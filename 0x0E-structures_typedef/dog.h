@@ -23,7 +23,7 @@ struct dog
  * @age: age of dog
  * @owner: owner of dog
  *
- * Return: void
+ * Description: This function initializes the members of a struct dog.
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
