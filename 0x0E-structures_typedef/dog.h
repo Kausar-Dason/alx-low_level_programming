@@ -27,6 +27,12 @@ struct dog
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
 
+/**
+ * print_dog - a function that prints a struct dog
+ * @d: a pointer to the struct dog
+ *
+ * Description: This function prints the members of a struct dog
+ */
 void print_dog(struct dog *d);
 
 #endif
