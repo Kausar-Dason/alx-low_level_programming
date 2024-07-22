@@ -34,5 +34,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
  * Description: This function prints the members of a struct dog
  */
 void print_dog(struct dog *d);
+typedef struct dog dog_t;
 
 #endif
