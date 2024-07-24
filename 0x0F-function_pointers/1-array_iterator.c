@@ -7,12 +7,13 @@
  *  parameter on each element of an array.
  * @size: the size of the array
  * @action: a pointer to the function
+ * @array: pointer to array
  *
  * Return: void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int a = 0;
+	size_t a = 0;
 
 	if (array != NULL && action != NULL)
 	{
