@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -10,12 +11,14 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 	int bit;
+	char c;
 
 	if (index >= (sizeof(unsigned long int) * 8))
 		return (-1);
 
 	bit = (n >> index) & 1;
-	_putchar(bit);
+	c = bit + '0';
+	write (1, &c, 1);
 
 	return (bit);
 }
